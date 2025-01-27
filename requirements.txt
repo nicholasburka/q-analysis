@@ -1,0 +1,5 @@
+matplotlib
+anthropic
+numpy
+streamlit
+pandas
