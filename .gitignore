@@ -3,3 +3,5 @@ hca-min.csv
 .csv
 data
 .ipynb_checkpoints/*
+.DS_Store
+.streamlit

@@ -9,7 +9,7 @@ import pandas as pd
 from datetime import datetime
 
 
-API_KEY = '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'
+API_KEY = st.secrets["ANTH_API_KEY"]
 client = anthropic.Anthropic(
     # defaults to os.environ.get("ANTHROPIC_API_KEY")
     api_key=API_KEY

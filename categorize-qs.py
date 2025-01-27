@@ -4,9 +4,13 @@ import json
 import matplotlib.pyplot as plt
 import anthropic
 import numpy as np
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 
-API_KEY = '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'
+API_KEY = os.getenv('ANTH_API_KEY')
+
 client = anthropic.Anthropic(
     # defaults to os.environ.get("ANTHROPIC_API_KEY")
     api_key=API_KEY
